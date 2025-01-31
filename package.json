@@ -1,0 +1,18 @@
+{
+  "name": "dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cubejs-server"
+  },
+  "template": "docker",
+  "templateVersion": "1.1.18",
+  "devDependencies": {
+    "@cubejs-backend/postgres-driver": "^1.1.17",
+    "@cubejs-backend/server": "^1.1.18"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "react-router-dom": "^7.1.4"
+  }
+}
